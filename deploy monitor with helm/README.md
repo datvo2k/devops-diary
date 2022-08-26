@@ -62,7 +62,7 @@ alertmanager:
 ```
 helm upgrade prometheus-stack prometheus-community/kube-prometheus-stack -n monitor  --values=value-msteams.yml
 ```
-## Add blackbox-exporter to config:
+## 4. Add blackbox-exporter to config:
 Create file blackbox-exporter.yml:
 ```
 config:
